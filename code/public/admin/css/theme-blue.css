@@ -1,0 +1,26 @@
+#header-main #logo {
+	BACKGROUND: url(../images/themes/blue/logo.gif) no-repeat left 10px; WIDTH: 100%; HEIGHT: 70px
+}
+#header-main {
+	BACKGROUND: url(../images/themes/blue/header-bg.jpg) #005195 repeat-x left top
+
+}
+UL#nav LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 9px; BACKGROUND: url(../images/themes/blue/tab-left.gif) no-repeat left top; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px 5px 0px 0px; PADDING-TOP: 0px
+}
+UL#nav LI A {
+	PADDING-RIGHT: 15px; DISPLAY: block; PADDING-LEFT: 6px; BACKGROUND: url(../images/themes/blue/tab-right.gif) no-repeat right top; FLOAT: left; PADDING-BOTTOM: 6px; COLOR: #ffffff; PADDING-TOP: 7px; TEXT-DECORATION: none
+}
+UL#nav LI A:visited {
+	PADDING-RIGHT: 15px; DISPLAY: block; PADDING-LEFT: 6px; BACKGROUND: url(../images/themes/blue/tab-right.gif) no-repeat right top; FLOAT: left; PADDING-BOTTOM: 6px; COLOR: #ffffff; PADDING-TOP: 7px; TEXT-DECORATION: none
+}
+UL#nav LI A:hover {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 6px; PADDING-BOTTOM: 5px; PADDING-TOP: 8px
+}
+UL#nav LI#current {
+	BACKGROUND: url(../images/themes/blue/tab-active-left.gif) no-repeat left top
+
+}
+UL#nav LI#current A {
+	BACKGROUND: url(../images/themes/blue/tab-active-right.gif) no-repeat right top; COLOR: #444444
+}

@@ -1,0 +1,87 @@
+@charset "utf-8";
+/*公共样式——顶部&底部 */
+/*全局样式 begin*/
+body {font-family: 宋体,Arial, Helvetica, sans-serif;font-size: 12px;color: #555;background-color: #FFF;margin: 0px;}
+
+/*登陆提示页 begin*/
+#login_msg{ width:755px; height:auto;margin:0px auto; padding:0px; background:#FFF; padding-top:100px; padding-bottom:100px;}
+#login_msg_t{ width:755px; height:52px; float:left; background:url(../Images/login_msgtop.gif) 0px 0px no-repeat;}
+#login_msg_m{ width:623px; height:auto; float:left; border:1px #a3c380 solid; border-top:0px; padding:0px 65px 65px; color:#888; font-size:12px;}
+#login_msg_m a{color:#82b24d;text-decoration: none;}
+#login_msg_m a:hover{color:#F00;text-decoration: none;}
+#login_msg_m table{width:623px; height:auto; text-align:left;float:left; clear:left;}
+#login_msg_m table td table{width:100%; height:auto; text-align:left;float:left; clear:left; color:#333;}
+#login_msg_m .usernaim { width:80px; height:20px; padding:0px; position:relative;}
+#login_msg_m .usernaim .nametop{width:61px; height:12px;line-height:12px;text-align:center;padding:3px; color:#333; padding-right:14px; background:url(../Images/listjt.gif) 61px 1px no-repeat;cursor:pointer; overflow:hidden;
+                         border-top:1px #aaa solid;
+						 border-left:1px #aaa solid;
+						 border-right:1px #ddd solid;	
+						 border-bottom:1px #ddd solid;
+						 }
+#login_msg_m .usernaim ul{width:78px; height:auto;text-align:center;color:#333;cursor:pointer; overflow:hidden; list-style:none; margin:0px; padding:0px; background:#FFF;
+                         border-top:0px #aaa solid;
+						 border-left:1px #ddd solid;
+						 border-right:1px #aaa solid;
+						 border-bottom:1px #aaa solid;
+						 position:absolute;
+						 left:0px;
+						 top:20px;
+						 }
+#login_msg_m .usernaim li{width:78px; height:22px; line-height:22px;text-align:center;color:#333;cursor:pointer; overflow:hidden; list-style:none;}
+#login_msg_m .usernaim li a{width78px; height:22px; display:block; color:#333;}
+#login_msg_m .usernaim li a:hover{width:78px; height:22px; display:block; color:#fff; background:#555;}
+#login_msg_m  .textstyle{width:162px; height:12px; line-height:12px;text-align:left;padding:3px; color:#555;
+                         border-top:1px #aaa solid;
+						 border-left:1px #aaa solid;
+						 border-right:1px #ddd solid;
+						 border-bottom:1px #ddd solid;
+						 }
+#login_msg_m .safety_Question{width:170px;height:20px; padding:0px;position:relative; }
+#login_msg_m .safety_Question .nametop{width:152px; height:12px;line-height:12px;text-align:left;padding:3px; color:#333; padding-right:14px;
+                         background:url(../Images/listjt.gif) 152px 1px no-repeat;
+                         cursor:pointer; 
+                         overflow:hidden;
+                         border-top:1px #aaa solid;
+						 border-left:1px #aaa solid;
+						 border-right:1px #ddd solid;
+						 border-bottom:1px #ddd solid;
+						 }
+#login_msg_m .safety_Question ul{width:169px; height:auto;text-align:center;color:#333;cursor:pointer; overflow:hidden; list-style:none; margin:0px; padding:0px; background:#FFF;
+                         border-top:0px #aaa solid;
+						 border-left:1px #ddd solid;
+						 border-right:1px #aaa solid;
+						 border-bottom:1px #aaa solid;
+						 position:absolute;
+						 left:0px;
+						 top:20px;
+						 }
+#login_msg_m .safety_Question li{width:169px; height:22px; line-height:22px;text-align:left;color:#333;cursor:pointer; overflow:hidden; list-style:none;}
+#login_msg_m .safety_Question li a{width:159px; height:22px; display:block; color:#333; padding-left:10px;}
+#login_msg_m .safety_Question li a:hover{width:159px; height:22px; display:block; color:#fff; background:#555;}
+#login_msg_m  a.loginbutton{width:auto; height:12px; line-height:12px;text-align: center;padding:3px 8px; color:#fff; background:#939393;
+                         border-top:1px #aaa solid;
+						 border-left:1px #aaa solid;
+						 border-right:1px #6f6f6f solid;
+						 border-bottom:1px #6f6f6f solid;
+						 }
+#login_msg_m  a.loginbutton:hover{ background:#ff7800;
+                         border-top:1px #be5b02 solid;
+						 border-left:1px #be5b02 solid;
+						 border-right:1px #ffb26e solid;
+						 border-bottom:1px #ffb26e solid;
+						 }
+#login_msg_m  a.loginbutton_on:hover{ background:#fff;
+                         border-top:1px #ff7800 solid;
+						 }
+.loginbuttonbox{ padding-left:72px; line-height:20px; text-align:left;}
+#login_msg_m table .title{ line-height:40px; font-size:18px; font-weight:bold; float:left; clear:left;}
+#login_msg_m table .toptitle{ line-height:30px; font-size:12px;float:left; color:#333; clear:left;}
+#login_msg_m table .toptxt{ line-height:20px; font-size:12px;float:left; clear:left;}
+#login_msg_m table .radio_style{width:30px; height:20px;line-height:20px;float:left; text-align:left;background: url(../Images/radiobg.gif) 3px 3px no-repeat; padding-left:25px;cursor:pointer;}
+#login_msg_m table .radio_styleon{width:30px; height:20px;line-height:20px;float:left; text-align:left; color:#F00;background: url(../Images/radiobg_on.gif) 3px 3px no-repeat; padding-left:25px;cursor:pointer;}
+.Failure_bg00{ background: url(../Images/Failureico.gif) 70px -15px no-repeat;}
+.Failure_bg{ background: url(../Images/Failureico.gif) 488px 100px no-repeat;}
+.Failure_bg02{ background: url(../Images/Failureico.gif) 488px 50px no-repeat;}
+.success_bg{ background: url(../Images/Successico.gif) 70px -10px no-repeat;}
+/*页底样式 end*/
+.fg{ margin-left:10px;margin-right:10px;}

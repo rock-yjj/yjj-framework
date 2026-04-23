@@ -1,0 +1,30 @@
+TABLE.tablesorter {
+	WIDTH: 100%; TEXT-ALIGN: left
+}
+TABLE.tablesorter THEAD TR TH {
+	
+}
+TABLE.tablesorter TFOOT TR TH {
+	
+}
+TABLE.tablesorter THEAD TR .header {
+	BACKGROUND-POSITION: right center; BACKGROUND-IMAGE: url(../Images/tablesorter/bg.gif); CURSOR: pointer; BACKGROUND-REPEAT: no-repeat
+}
+TABLE.tablesorter TBODY TD {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; VERTICAL-ALIGN: top; COLOR: #3d3d3d; PADDING-TOP: 4px; BACKGROUND-COLOR: #fff
+}
+TABLE.tablesorter TBODY TR.odd TD {
+	BACKGROUND-COLOR: #f1f5fa
+}
+TABLE.tablesorter THEAD TR .headerSortUp {
+	BACKGROUND-IMAGE: url(../Images/tablesorter/asc.gif)
+}
+TABLE.tablesorter THEAD TR .headerSortDown {
+	BACKGROUND-IMAGE: url(../Images/tablesorter/desc.gif)
+}
+TABLE.tablesorter THEAD TR .headerSortDown {
+	BACKGROUND-COLOR: #dddddd
+}
+TABLE.tablesorter THEAD TR .headerSortUp {
+	BACKGROUND-COLOR: #dddddd
+}
